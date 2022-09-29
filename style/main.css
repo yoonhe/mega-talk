@@ -7,7 +7,7 @@ main {
 .user {
   display: flex;
   align-items: center;
-  gap: 2vw;
+  gap: 3vw;
   margin-bottom: 3vw;
 }
 
@@ -17,16 +17,41 @@ main {
   border-radius: 5vw;
 }
 
+.user span {
+  font-size: 4.5vw;
+  font-weight: 700;
+}
+
+.friends {
+  padding-top: 3.5vw;
+  border-top: 1px solid #DDDDDD;
+}
+
 .friends h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 3.2vw;
   font-weight: 400;
   margin-bottom: 2vw;
+  color: #666666;
+}
+
+.friends h2 button {
+  display: inline-block;
+  width: 7vw;
+  height: 7vw;
+  border: none;
+  background: url(/images/chevron-down.png) no-repeat 50% 50% / 60%;
+  text-indent: -99999999px;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .friends li {
   display: flex;
   align-items: center;
-  gap: 2vw;
+  gap: 3vw;
 }
 
 .friends li + li {
