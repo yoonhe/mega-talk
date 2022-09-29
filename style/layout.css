@@ -4,9 +4,34 @@ aside {
   padding: 4vw 10vw;
 }
 
+aside time {
+  font-weight: 900;
+}
+
 aside ul {
   display: flex;
   gap: 2vw;
+}
+
+aside li {
+  background: no-repeat 0 50% / contain;
+  text-indent: -999999px;
+  overflow: hidden;
+}
+
+.cellular {
+  width: 5vw;
+  background-image: url(/images/cellular.png);
+}
+
+.wifi {
+  width: 5vw;
+  background-image: url(/images/wifi.png);
+}
+
+.battery {
+  width: 7.5vw;
+  background-image: url(/images/battery.png);
 }
 
 main {
