@@ -1,0 +1,40 @@
+main {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 4.2vw;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  margin-bottom: 3vw;
+}
+
+.user img {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 5vw;
+}
+
+.friends h2 {
+  font-size: 3.2vw;
+  font-weight: 400;
+  margin-bottom: 2vw;
+}
+
+.friends li {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.friends li + li {
+  margin-top: 5vw;
+}
+
+.friends img {
+  width: 13vw;
+  height: 13vw;
+  border-radius: 5vw;
+}

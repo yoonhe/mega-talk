@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 2vw;
+}
+
+header nav ul {
+  display: flex;
+  gap: 4vw;
+}
+
+header nav a {
+  display: flex;
+  gap: 4vw;
+  width: 5vw;
+  height: 5vw;
+  background: no-repeat 0 50% / contain;
+  text-indent: -9999999px;
+  overflow: hidden;
+}
+
+header .search a {
+  background-image: url(/images/search.png);
+}
+
+header .add-friend a {
+  background-image: url(/images/add-friend.png);
+}
+
+header .settings a {
+  background-image: url(/images/settings.png);
+}
